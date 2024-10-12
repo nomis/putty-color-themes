@@ -105,7 +105,7 @@ if (args.length<1) {
 }
 var FilePath = args.item(0);
 
-var result1 = WScript.CreateObject("WScript.Shell").Popup("Apply colors settings from "+FilePath+"?", 0, "Putty Color", 68);
+var result1 = WScript.CreateObject("WScript.Shell").Popup("Apply colour settings from "+FilePath+"?", 0, "Putty Colour", 68);
 if (result1!=6 ) { WScript.Quit(666); }
 
 fs = new ActiveXObject("Scripting.FileSystemObject");
@@ -138,4 +138,4 @@ var reg = new Registry(Registry.HKEY_CURRENT_USER)
       return true; 
     });
 
-WScript.Echo("Color setings from file "+FilePath+" were applied!");
+WScript.Echo("Colour settings from file "+FilePath+" applied!");
