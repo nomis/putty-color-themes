@@ -1,6 +1,11 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\Default%20Settings]
+"ANSIColour"="1"
+"Xterm256Colour"="0"
+"TrueColour"="0"
+"TryPalette"="0"
+"UseSystemColours"="0"
 "Colour0"="0,0,0"
 "Colour1"="0,0,0"
 "Colour2"="255,255,255"
